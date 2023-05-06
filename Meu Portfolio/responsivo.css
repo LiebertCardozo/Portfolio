@@ -29,7 +29,7 @@
         flex-direction: column;
     }
 
-    .sobremim-conteudo-img {
-        display: none;
+    .sobremim-conteudo {
+        flex-direction: column;
     }
 }
