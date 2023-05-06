@@ -18,6 +18,7 @@ body {
 
 .cabecalio-conteudo-escrito {
     line-height: 10px;
+    
 }
 
 .cabecalio-menu {
@@ -48,6 +49,11 @@ body {
     
 }
 
+.conteudo-principal-botao-a {
+    display: flex;
+    gap: 0px 30px;
+}
+
 .conteudo-principal-botao {
     padding: 15px;
     border: 2px solid rgb(53, 150, 85);
@@ -59,6 +65,14 @@ body {
 .conteudo-principal-botao-a :hover {
     background-color: rgb(53, 150, 85);
     transition: 0.5s all;
+}
+
+.conteudo-principal-botao2 {
+    padding: 15px;
+    border: 2px solid rgb(53, 150, 85);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .sobremim-conteudo {
