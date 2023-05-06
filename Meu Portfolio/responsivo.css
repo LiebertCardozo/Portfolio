@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .cabecalio-conteudo{
+        flex-direction: column;
+    }
+
+    .cabecalio-conteudo-escrito {
+        padding-bottom: 5px;
+    }
+
+    .conteudo-principal{
+        font-size: 15px;
+    }
+
+    .conteudo-principal-img {
+        max-width: 360px;
+    }
+
+    .sobremim-conteudo {
+        font-size: 15px;
+    }
+
+    .sobremim-conteudo-img {
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .sobremim-conteudo-img {
+        display: none;
+    }
+}
